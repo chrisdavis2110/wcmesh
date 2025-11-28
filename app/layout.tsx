@@ -4,6 +4,7 @@ import { Space_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import { FrequencyBanner } from "@/components/frequency-banner"
+import { FooterNav } from "@/components/footer-nav"
 
 const spaceMono = Space_Mono({
   weight: ["400", "700"],
@@ -80,7 +81,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${spaceMono.variable} font-mono antialiased`}>
         <FrequencyBanner />
-        <div className="pt-12 sm:pt-14">{children}</div>
+        <div className="pt-12 sm:pt-14 pb-16">{children}</div>
+        <FooterNav />
         <Analytics />
       </body>
     </html>

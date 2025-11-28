@@ -1,8 +1,8 @@
-import { MessageSquare } from 'lucide-react'
+import { MessageSquare } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="bg-background border-t-2 border-wcm-green py-12">
+    <footer className="bg-background border-t-2 border-wcm-green py-12 mb-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Logo and tagline */}
@@ -97,7 +97,13 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-wcm-green pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="font-mono text-xs text-wcm-gray max-w-3xl text-center sm:text-left leading-relaxed">
-            © 2025 West Coast Mesh. All rights reserved. West Coast Mesh is a decentralized organization that organizes information. The network is supplied, operated, and maintained by independent users and members, and West Coast Mesh does not control or supervise the actions of its members, the placement or operation of any equipment, or the configuration or use of the network. This network is provided “as is” without any warranty of any kind, express or implied. West Coast Mesh is not intended to be used as a life-saving or emergency service. In an emergency, dial 911 or your local emergency number. Your use of this network is solely at your own risk.
+            © 2025 West Coast Mesh. All rights reserved. West Coast Mesh is a decentralized organization that organizes
+            information. The network is supplied, operated, and maintained by independent users and members, and West
+            Coast Mesh does not control or supervise the actions of its members, the placement or operation of any
+            equipment, or the configuration or use of the network. This network is provided “as is” without any warranty
+            of any kind, express or implied. West Coast Mesh is not intended to be used as a life-saving or emergency
+            service. In an emergency, dial 911 or your local emergency number. Your use of this network is solely at
+            your own risk.
           </p>
           <div className="flex items-center gap-4 shrink-0">
             <img src="/images/meshcore-logo.png" alt="MeshCore" className="h-6 w-auto" />
