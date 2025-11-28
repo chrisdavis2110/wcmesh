@@ -47,14 +47,14 @@ export function FrequencyBanner() {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50 bg-muted text-foreground">
-      <div className="container mx-auto px-4 py-3">
-        <div className="flex items-center justify-center gap-4">
-          <Link href="/" className="cursor-pointer hover:opacity-80 transition-opacity">
-            <img src="/images/wcmesh-logo-horizontal-white.svg" alt="West Coast Mesh" className="h-8 w-auto" />
+      <div className="container mx-auto px-4 py-2 sm:py-3">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
+          <Link href="/" className="cursor-pointer hover:opacity-80 transition-opacity shrink-0">
+            <img src="/images/wcmesh-logo-horizontal-white.svg" alt="West Coast Mesh" className="h-6 sm:h-8 w-auto" />
           </Link>
-          <div className="relative overflow-hidden h-6">
+          <div className="relative overflow-hidden min-h-[2rem] sm:min-h-[1.5rem] w-full sm:w-auto">
             <p
-              className={`font-mono text-xs sm:text-sm text-center transition-all duration-1000 ${
+              className={`font-mono text-xs sm:text-sm text-center transition-all duration-1000 leading-tight sm:leading-normal ${
                 isAnimating ? "translate-y-[-100%] opacity-0" : "translate-y-0 opacity-100"
               }`}
             >
@@ -69,8 +69,8 @@ export function FrequencyBanner() {
             </p>
           </div>
         </div>
-        {/* </CHANGE> */}
       </div>
+      {/* </CHANGE> */}
     </div>
   )
 }
