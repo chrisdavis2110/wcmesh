@@ -26,6 +26,13 @@ export function FrequencyBanner() {
       spreadFactor: "9",
       codingRate: "5",
     },
+    {
+      region: "P.N.W.",
+      freq: "910.525",
+      bandwidth: "62.5kHz",
+      spreadFactor: "7",
+      codingRate: "5",
+    },
   ]
 
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -70,7 +77,6 @@ export function FrequencyBanner() {
           </div>
         </div>
       </div>
-      {/* </CHANGE> */}
     </div>
   )
 }
