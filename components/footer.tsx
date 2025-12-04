@@ -77,6 +77,16 @@ export function Footer() {
                   {"> GitHub MeshCore"}
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://westcoastmesh-linkbudget.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-wcm-gray hover:text-wcm-green transition-colors"
+                >
+                  {"> Link Budgets"}
+                </a>
+              </li>
             </ul>
           </div>
 
