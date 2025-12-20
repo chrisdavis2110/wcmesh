@@ -12,7 +12,7 @@ export function FrequencyBanner() {
       region: "SoCal",
       freq: "927.875",
       bandwidth: "62.5kHz",
-      spreadFactor: "9",
+      spreadFactor: "7",
       codingRate: "5",
     },
     {
